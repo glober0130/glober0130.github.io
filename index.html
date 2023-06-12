@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>九禾遊戲平台 NINE BUDDY GAMES</title>
+<link rel="shortcut icon" type="image/ico" href="https://www.9buddy.com/images/favicon.ico" />
+<meta name="viewport" content="width=1110" />
+<meta name="MobileOptimized" content="width=1110" />
+<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="scroll.js"></script>
+<script type="text/javascript" src="jquery.backgroundPosition.js"></script>
+<script type="text/javascript" src="bjqs-1.3.js"></script>
+<link rel="stylesheet" href="bjqs.css">
+<link rel="stylesheet" href="web.css">
+<link rel="stylesheet" href="web_new202307.css">
+<link rel="stylesheet" href="font.css">
+
+
+<script type="text/javascript">
+
+$(function(){
+	$("#menu li a").hover(function(){
+		var _this = $(this),
+			_height = _this.height() * 0;
+		_this.stop().animate({
+			backgroundPosition: "0px " + _height + "px"
+		}, 150);
+	}, function(){
+		$(this).stop().animate({
+			backgroundPosition: "0px -40px"
+		}, 150);
+	});
+});
+
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+
+jQuery(document).ready(function($) {
+  
+  $('#large_ad').bjqs({
+    animtype      : 'slide',
+    height        : 300,
+    width         : 1920,
+    responsive    : true,
+  });
+  
+});
+
+
+$(document).ready(function(){
+    $(document).scroll(function(){
+        var _jumpOutHeight = 700;
+        var height = $(document).scrollTop();
+        if (height > _jumpOutHeight && $("#gototop").css("display") == "none" ) {
+            $("#gototop").fadeIn(500);
+        } 
+        if (height < _jumpOutHeight && $("#gototop").css("display") == "block" ) {
+            $("#gototop").fadeOut(500);
+        }
+    });
+});
+
+
+</script>
+
+
+</head>
+
+<body onload="MM_preloadImages('images/index_mid_left_05b.jpg','images/index_mid_left_07b.jpg','images/index_mid_left_09b.jpg')">
+
+
+<div id="mid_new">
+
+<div id="content">
+
+   <div class="content-ann">
+     <div class="content-ann-area">
+        <div class="content-ann-area-title">旗下所有遊戲終止營運暨九禾平台相關服務停止說明</div>
+        <div class="content-ann-area-text">因旗下遊戲皆已終止營運，會員帳號的資料修改僅開放至7/31，會員帳號之所有安全鎖將於7/31停止服務。
+          九禾VIP會員資格效期即日起終止。尚未使用之生日禮券隨遊戲儲值功能關閉，亦無法再使用。</div>
+     </div>
+
+     <div class="content-ann-area">
+        <div class="content-ann-area-title">遊戲退費申請相關說明</div>
+        <div class="content-ann-area-text">因旗下遊戲皆已終止營運，會員帳號的資料修改僅開放至7/31，會員帳號之所有安全鎖將於7/31停止服務。
+        九禾VIP會員資格效期即日起終止。尚未使用之生日禮券隨遊戲儲值功能關閉，亦無法再使用。</div>
+     </div>
+
+   <div class="content-ann-area">
+       <div class="content-ann-area-title">九禾簡訊鎖異常說明(已修復)</div>
+       <div class="content-ann-area-text">由於簡訊鎖安全解鎖專線發生系統異常，目前已反映合作廠商搶修中，修復後將另行公告通知
+        若有需要登入玩家，可透過線上即時服務聯繫客服人員提供基本資料核對，人員將會協助處理
+        造成不便還請見諒，謝謝。
+        <br/>
+        玩家可使用智慧型手機下載九禾遊戲平台App，申請免付費解鎖防盜機制「App防盜鎖」，
+        申請啟用App鎖時可以同時關閉其他防盜機制服務。<br/>
+        啟用APP鎖後>至帳號管理>選擇對應遊戲帳號>設定通訊鎖或簡訊鎖>停用簡訊鎖</div>
+   </div>
+   </div>
+
+   <div class="content-game">
+     <div class="content-game_g01"><a href="#"></a></div>
+     <div class="content-game_g03"><a href="#"></a></div>
+   </div>
+
+</div>
+
+
+
+<div id="footer">
+  <div id="footer1000">
+    <div class="map_f03" id="map_dw" align="center">九禾遊戲平台 版權所有 © NINE BUDDY GAMES INC. All rights reserved.</div>
+  </div> 
+</div> 
+
+
+</div>
+
+
+<div id="top">
+
+ <div id="top1000">
+ 
+ <div id="logo"><a href="http://www.9buddy.com/index.aspx" target="_self"><img src="images/index_logo.png" width="257" height="75" border="0" /></a></div> 
+  <div id="login">
+    <table width="400" border="0" align="right" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="31" align="right" valign="middle"><a class="login_f01" href="#">登入 LOGIN</a></td>
+      </tr>
+    </table>
+  </div> 
+   
+   <div id="top_menu">
+      <ul id="menu">
+		    <li><a href="#" target="_self" class="v1"></a></li>
+		    <li><a href="#" target="_self" class="v2"></a></li>
+        <li><a href="#" target="_self" class="v4"></a></li>
+        <li><a href="#" target="_self" class="v5"></a></li>
+	   </ul>
+    </div> 
+
+  </div> 
+
+</div> 
+
+<div id="gototop"><a href="#"><img src="images/gototop.png" width="58" height="58" border="0" /></a></div>
+
+</body>
+</html>
